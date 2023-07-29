@@ -18,7 +18,7 @@
 
 .btn-sign, .btn-hero {
     padding: 8px 22px;
-    background: #482BE7;
+    background: #5000CA;
     color: #e4e2e2ed;
     border-radius: 6px;
 }
@@ -32,14 +32,9 @@
     background: #5a48c5e1;
 }
 
-.herotext h1, h2 {
-    color: #1E0E62;
+.herotext h1 {
+    color: #0a042be1;
 }
-
-.herotext p{
-    color: var(--colors-text, rgba(21, 20, 57, 0.40));
-}
-
 
 .spectar {
     margin: 10% auto;
@@ -69,11 +64,54 @@
 .card-header-item, .card-body-item {
     padding: 10px 13px;
 }
-.section5-img{
+
+.why{
+    box-sizing: border-box;
     display: flex;
-    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.why p{
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: -25px;
 }
 
+.herotext2 h2{
+    margin-top: 150px;
+}
+
+.dedicated{
+    padding-bottom: 15%;
+}
+.myfooter{
+    background: #5000CA !important;
+}
+.myfooter p{
+    color: gray;
+}
+
+.box{
+    background-color: lightblue;
+   padding: 20px;
+   border-radius: 15px;
+}
+
+.gtStarted{
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+
+.box h6, p{
+    color: #fff;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 992px) {
     .card-overall-section {
@@ -83,19 +121,26 @@
     .card-item {
         margin: 0 0 20px 0;
     }
-    .svg1{
+
+    .svg-top{
         margin-bottom: -5px;
     }
-    .svg2{
+    .svg-buttom{
         margin-top: -5px;
+    }
+    .myrow{
+        flex-direction: row-reverse;
     }
 }
 
-@media screen and (min-width: 1000px) {
-        .svg1{
+@media screen and (min-width: 1000px){
+
+    .svg-top{
         margin-bottom: -5px;
     }
-    .svg2{
+    .svg-buttom{
         margin-top: -5px;
     }
+
 }
+
